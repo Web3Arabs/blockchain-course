@@ -1,6 +1,6 @@
 # إثبات العمل PoW وإثبات الحصة PoS
 
-تعد تقنية Blockchain طريقة ثورية جديدة لتخزين البيانات ومشاركتها وتأمينها. أحد المكونات الرئيسية لتقنية blockchain هو استخدامها لـ "إثبات العمل" للتحقق من المعاملات وتأمين الشبكة. في منشور المدونة هذا ، سنناقش ماهية إثبات العمل وكيف يعمل في شبكات blockchain.
+تعد تقنية Blockchain طريقة ثورية جديدة لتخزين البيانات ومشاركتها وتأمينها. أحد المكونات الرئيسية لتقنية blockchain هو استخدامها لـ "إثبات العمل" و "إثبات الحصة" للتحقق من المعاملات وتأمين الشبكة.
 
 ## إثبات العمل (Proof of Work)
 
@@ -29,3 +29,20 @@
 في PoW يكافأ عمال المناجم على جهودهم مع العملات المعدنية المسكوكة حديثًا، بينما تكافئ PoS المدققين برسوم المعاملات.
 
 بالإضافة إلى ذلك، تتطلب PoW كمية كبيرة من الطاقة للتشغيل، بينما PoS أكثر كفاءة في استخدام الطاقة.
+
+يوجد مقطع فيديو رائع على YouTube بواسطة **3Blue1Brown** يتحدث حول خوارزمية إثبات عمل Bitcoin مع صور مرئية. أوصي بشدة بمشاهدة هذا الفيديو قبل المضي قدمًا!
+
+<iframe width="770" height="433.12" src="https://www.youtube.com/embed/bBC-nXj3Ng4?si=SpXulYbvJrtAHcYQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+### مصادر إضافية
+
+فيما يلي مجموعة مقالات اختيارية، ولكن يوصى بها، لفهم المزيد حول إثبات العمل وإثبات الحصة:
+
+- <a href="https://andersbrownworth.com/blockchain" target="_blank">https://andersbrownworth.com/blockchain</a> <br/>
+- <a href="https://blog.ethereum.org/2016/05/09/on-settlement-finality" target="_blank">https://blog.ethereum.org/2016/05/09/on-settlement-finality</a> <br/>
+- <a href="https://ethereum.org/en/developers/docs/consensus-mechanisms/pow/mining-algorithms/ethash" target="_blank">https://ethereum.org/en/developers/docs/consensus-mechanisms/pow/mining-algorithms/ethash</a> <br/>
+- <a href="https://vitalik.ca/general/2017/12/31/pos_faq.html" target="_blank">https://vitalik.ca/general/2017/12/31/pos_faq.html</a> <br/>
+- <a href="https://vitalik.ca/general/2017/12/31/pos_faq.html" target="_blank">https://vitalik.ca/general/2017/12/31/pos_faq.html</a> <br/>
+- <a href="https://vitalik.ca/general/2017/12/31/pos_faq.html" target="_blank">https://vitalik.ca/general/2017/12/31/pos_faq.html</a>
+
+كما هو الحال دائمًا، إذا كانت لديك أي أسئلة أو شعرت بالتعثر أو أردت فقط أن تقول مرحبًا، فقم بالإنضمام على <a href="https://t.me/Web3ArabsDAO" target="_blank">Telegram</a> او <a href="https://discord.gg/ykgUvqMc4Q" target="_blank">Discord</a> وسنكون أكثر من سعداء لمساعدتك!
