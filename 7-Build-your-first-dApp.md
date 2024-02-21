@@ -14,7 +14,8 @@
 <img src="https://www.web3arabs.com/courses/metamask-testnet.png"/>
 3. بعد إضافة شبكات الإختبار قم بتغيير الشبكة من Ethereum Mainnet الى Sepolia.
 <img src="https://www.web3arabs.com/courses/metamask-testnet2.png"/>
-4. يمكنك الحصول على بعض من العملات لكي تقوم بنشر العقد الذكي والتفاعل معه من هنا - <a href="https://sepoliafaucet.com/" target="_blank">https://sepoliafaucet.com/</a>. <br/>
+4. يمكنك الحصول على بعض من العملات لكي تقوم بنشر العقد الذكي والتفاعل معه من هنا - <a href="/faucets/sepolia" target="_blank">https://web3arabs.com/faucets/sepolia</a> - قم بتوصيل محفظتك بالصنبور وإنقر على الزر **إرسال**. <br/>
+<img src="https://www.web3arabs.com/courses/faucet-sepolia.png"/>
 5. تثبيت محرر التعليمات البرمجية (نوصي باستخدام <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a>). <br/>
 6. <a href="https://nodejs.org/en/download" target="_blank">قم بتثبيت Node.js</a> إذا لم يكن لديك بالفعل (استخدم إصدار LTS لأنه مستقر). <br/>
 7. افتح موجه الاوامر terminal (في نظام التشغيل Windows او macOS أو Linux) وقم بتثبيت lite-server حتى تتمكن من تشغيل موقع الويب الخاص بك. <br/>
