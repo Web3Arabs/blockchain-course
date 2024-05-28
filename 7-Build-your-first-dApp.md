@@ -18,10 +18,34 @@
 <img src="https://www.web3arabs.com/courses/faucet-sepolia.png"/>
 5. تثبيت محرر التعليمات البرمجية (نوصي باستخدام <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a>). <br/>
 6. <a href="https://nodejs.org/en/download" target="_blank">قم بتثبيت Node.js</a> إذا لم يكن لديك بالفعل (استخدم إصدار LTS لأنه مستقر). <br/>
-7. افتح موجه الاوامر terminal (في نظام التشغيل Windows او macOS أو Linux) وقم بتثبيت lite-server حتى تتمكن من تشغيل موقع الويب الخاص بك. <br/>
+7. افتح موجه الاوامر terminal (في نظام التشغيل Windows او macOS أو Linux) وقم بإنشاء مجلد firstdapp:
 
-```bash
-npm install -g lite-server
+```
+mkdir firstdapp && cd firstdapp
+```
+8-ستقوم بتشغيل هذه الأوامر من أجل إعداد المشروع وتثبيت مكتبة lite-server:
+```
+npm init --yes
+npm install lite-server --save-dev
+```
+9-قم بفتح ملف package.json في VS Code وقم بإضافة هذا الكود بدلاً من السابق:
+```
+{
+  "name": "firstdapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite-server": "lite-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
 ```
 
 ## إنشاء صفحة HTML بسيطة
@@ -94,8 +118,8 @@ npm install -g lite-server
 
 الان يمكنك حفظ الملف - index.html - وتشغيل السيرفر بواسطة terminal في مجلد المشروع (ملف index.js).
 
-```bash
-lite-server
+```
+npm run lite-server
 ```
 
 يمكنك الان رؤية صفحة الويب من هنا - <a href="localhost:3000" target="_blank">localhost:3000</a> - بحيث تبدو بهذا الشكل:
